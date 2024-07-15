@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_1_8" jdk="11" jdk_type="JavaSDK">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+	</contentEntry>
+	<lib name="Maven: com.google.guava:guava:29.0-jre" scope="TEST"/>
+	<lib name="Maven: com.google.guava:failureaccess:1.0.1" scope="TEST"/>
+	<lib name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" scope="TEST"/>
+	<lib name="Maven: com.google.code.findbugs:jsr305:3.0.2" scope="TEST"/>
+	<lib name="Maven: org.checkerframework:checker-qual:2.11.1" scope="TEST"/>
+	<lib name="Maven: com.google.errorprone:error_prone_annotations:2.3.4" scope="TEST"/>
+	<lib name="Maven: com.google.j2objc:j2objc-annotations:1.3" scope="TEST"/>
+	<levels>
+		<level name="Maven: org.testng:testng:7.0.0" value="project"/>
+		<level name="Maven: com.beust:jcommander:1.72" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-java:4.0.0-alpha-6" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-api:4.0.0-alpha-6" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:4.0.0-alpha-6" value="project"/>
+		<level name="Maven: com.google.auto.service:auto-service-annotations:1.0-rc6" value="project"/>
+		<level name="Maven: com.google.auto.service:auto-service:1.0-rc6" value="project"/>
+		<level name="Maven: com.google.auto:auto-common:0.10" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-chromium-driver:4.0.0-alpha-6" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-devtools:4.0.0-alpha-6" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-http:4.0.0-alpha-6" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-json:4.0.0-alpha-6" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-edge-driver:4.0.0-alpha-6" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-edgehtml-driver:4.0.0-alpha-6" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-firefox-driver:4.0.0-alpha-6" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-firefox-xpi-driver:4.0.0-alpha-6" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-ie-driver:4.0.0-alpha-6" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-opera-driver:4.0.0-alpha-6" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-remote-driver:4.0.0-alpha-6" value="project"/>
+		<level name="Maven: com.squareup.okhttp3:okhttp:4.5.0" value="project"/>
+		<level name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.3.70" value="project"/>
+		<level name="Maven: org.jetbrains:annotations:13.0" value="project"/>
+		<level name="Maven: com.squareup.okio:okio:2.6.0" value="project"/>
+		<level name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.70" value="project"/>
+		<level name="Maven: com.typesafe.netty:netty-reactive-streams:2.0.4" value="project"/>
+		<level name="Maven: io.netty:netty-handler:4.1.43.Final" value="project"/>
+		<level name="Maven: org.reactivestreams:reactive-streams:1.0.3" value="project"/>
+		<level name="Maven: io.grpc:grpc-context:1.28.0" value="project"/>
+		<level name="Maven: io.netty:netty-buffer:4.1.49.Final" value="project"/>
+		<level name="Maven: io.netty:netty-common:4.1.49.Final" value="project"/>
+		<level name="Maven: io.netty:netty-codec-http:4.1.49.Final" value="project"/>
+		<level name="Maven: io.netty:netty-codec:4.1.49.Final" value="project"/>
+		<level name="Maven: io.netty:netty-transport-native-epoll:4.1.49.Final" value="project"/>
+		<level name="Maven: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.49.Final" value="project"/>
+		<level name="Maven: io.netty:netty-transport-native-kqueue:4.1.49.Final" value="project"/>
+		<level name="Maven: io.netty:netty-transport-native-kqueue:osx-x86_64:4.1.49.Final" value="project"/>
+		<level name="Maven: io.netty:netty-transport-native-unix-common:4.1.49.Final" value="project"/>
+		<level name="Maven: io.netty:netty-transport:4.1.49.Final" value="project"/>
+		<level name="Maven: io.netty:netty-resolver:4.1.49.Final" value="project"/>
+		<level name="Maven: io.opentelemetry:opentelemetry-api:0.4.0" value="project"/>
+		<level name="Maven: io.opentelemetry:opentelemetry-context-prop:0.4.0" value="project"/>
+		<level name="Maven: io.opentelemetry:opentelemetry-sdk:0.4.0" value="project"/>
+		<level name="Maven: io.projectreactor.netty:reactor-netty:0.9.6.RELEASE" value="project"/>
+		<level name="Maven: io.netty:netty-codec-http2:4.1.48.Final" value="project"/>
+		<level name="Maven: io.netty:netty-handler-proxy:4.1.48.Final" value="project"/>
+		<level name="Maven: io.projectreactor:reactor-core:3.3.5.RELEASE" value="project"/>
+		<level name="Maven: net.bytebuddy:byte-buddy:1.10.9" value="project"/>
+		<level name="Maven: org.apache.commons:commons-exec:1.3" value="project"/>
+		<level name="Maven: org.asynchttpclient:async-http-client:2.12.1" value="project"/>
+		<level name="Maven: org.asynchttpclient:async-http-client-netty-utils:2.12.1" value="project"/>
+		<level name="Maven: io.netty:netty-codec-socks:4.1.48.Final" value="project"/>
+		<level name="Maven: com.sun.activation:javax.activation:1.2.0" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-safari-driver:4.0.0-alpha-6" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-support:4.0.0-alpha-6" value="project"/>
+		<level name="Maven: io.github.bonigarcia:webdrivermanager:4.1.0" value="project"/>
+		<level name="Maven: org.slf4j:slf4j-api:1.7.30" value="project"/>
+		<level name="Maven: commons-io:commons-io:2.7" value="project"/>
+		<level name="Maven: com.google.code.gson:gson:2.8.6" value="project"/>
+		<level name="Maven: org.apache.commons:commons-lang3:3.10" value="project"/>
+		<level name="Maven: org.apache.httpcomponents.client5:httpclient5:5.0.1" value="project"/>
+		<level name="Maven: org.apache.httpcomponents.core5:httpcore5:5.0.1" value="project"/>
+		<level name="Maven: org.apache.httpcomponents.core5:httpcore5-h2:5.0.1" value="project"/>
+		<level name="Maven: commons-codec:commons-codec:1.13" value="project"/>
+		<level name="Maven: org.rauschig:jarchivelib:1.0.0" value="project"/>
+		<level name="Maven: org.apache.commons:commons-compress:1.18" value="project"/>
+		<level name="Maven: org.jsoup:jsoup:1.13.1" value="project"/>
+		<level name="Maven: com.google.guava:guava:29.0-jre" value="project"/>
+		<level name="Maven: com.google.guava:failureaccess:1.0.1" value="project"/>
+		<level name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" value="project"/>
+		<level name="Maven: com.google.code.findbugs:jsr305:3.0.2" value="project"/>
+		<level name="Maven: org.checkerframework:checker-qual:2.11.1" value="project"/>
+		<level name="Maven: com.google.errorprone:error_prone_annotations:2.3.4" value="project"/>
+		<level name="Maven: com.google.j2objc:j2objc-annotations:1.3" value="project"/>
+	</levels>
+</component>
